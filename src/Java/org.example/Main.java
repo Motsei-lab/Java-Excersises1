@@ -1,11 +1,10 @@
-import org.example.ShoppingTotal;
-import org.example.StudentsDetails;
-import org.example.TemperatureConverter;
+import org.example.*;
 
 
 void main() {
+    Scanner input = new Scanner(System.in);
 
-    StudentsDetails student = new StudentsDetails();
+    /*StudentsDetails student = new StudentsDetails();
 
     student.name = "Naledi";
     student.age = 20;
@@ -30,6 +29,36 @@ void main() {
     temp.fahToCelConvert();
     temp.displayConversions();
 
+
+
+    System.out.println("Please enter your mark");
+    int num = input.nextInt();
+    PasssOrFail stu = new PasssOrFail();
+    stu.mark = num;
+    stu.determinePassorFail();
+
+
+    System.out.println("Please enter the mark you have got for your exam ");
+    int num1 = input.nextInt();
+    GradeCalculator grade = new GradeCalculator();
+    grade.mark = num1;
+    grade.classifyMarks();
+
+    System.out.println("Enter an integer number");
+    int num2 = input.nextInt();
+    NumberAnalysis na = new NumberAnalysis();
+    na.number = num2;
+    na.determineInt();*/
+
+    System.out.println("Please enter your username");
+    String us = input.nextLine();
+    System.out.println("Please enter your password");
+    String pass = input.nextLine();
+
+    LoginCheck me = new LoginCheck();
+    me.username = us;
+    me.password = pass;
+    me.checkLogin();
 
 
 
