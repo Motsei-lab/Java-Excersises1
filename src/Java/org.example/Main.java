@@ -48,7 +48,7 @@ void main() {
     int num2 = input.nextInt();
     NumberAnalysis na = new NumberAnalysis();
     na.number = num2;
-    na.determineInt();*/
+    na.determineInt();
 
     System.out.println("Please enter your username");
     String us = input.nextLine();
@@ -60,6 +60,11 @@ void main() {
     me.password = pass;
     me.checkLogin();
 
+    StudentMarks mm = new StudentMarks();
+    mm.calculateArrays();*/
+
+    ArrayStatistics as = new ArrayStatistics();
+    as.largeSmallValue();
 
 
     }
