@@ -14,7 +14,6 @@ public class NumberAnalysis {
             System.out.println(number + " is a zero");
 
         }
-
         if(number % 2 ==0){
             System.out.println( number+ " The integer number is even");
         }
