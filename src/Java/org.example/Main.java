@@ -61,10 +61,13 @@ void main() {
     me.checkLogin();
 
     StudentMarks mm = new StudentMarks();
-    mm.calculateArrays();*/
+    mm.calculateArrays();
 
     ArrayStatistics as = new ArrayStatistics();
     as.largeSmallValue();
+
+    ArraySearch s = new ArraySearch();
+    s.search();*/
 
 
     }
