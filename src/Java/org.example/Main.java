@@ -74,6 +74,21 @@ void main() {
 
     ReverseArray ra = new ReverseArray();
     ra.reverse();
+    System.out.println("============================================================");
+    Student stu1 = new Student("Motsei","223765899",89.0);
+    stu1.displayDetails();
+    stu1.hasPassed();
+    System.out.println("============================================================");
+    Student stu2 = new Student("Donald","262226678",49.0);
+    stu2.displayDetails();
+    stu2.hasPassed();
+    System.out.println("============================================================");
+
+    BankAccount tel1 = new BankAccount("Mr Sefanyetso","12345678900",10);
+    tel1.deposit(10);
+    tel1.withdraw(6);
+    tel1.getBalance();
+
 
 
 

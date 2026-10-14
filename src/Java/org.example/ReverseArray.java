@@ -9,6 +9,8 @@ public class ReverseArray {
         for(int index= foods.length -1; index >=0; index--){
             revFood.add(foods[index]);
         }
-        System.out.println(revFood);
+
+        System.out.println("reversedList: " +revFood);
     }
+
 }
