@@ -4,7 +4,7 @@ import org.example.*;
 void main() {
     Scanner input = new Scanner(System.in);
 
-    /*StudentsDetails student = new StudentsDetails();
+    StudentsDetails student = new StudentsDetails();
 
     student.name = "Naledi";
     student.age = 20;
@@ -67,7 +67,7 @@ void main() {
     as.largeSmallValue();
 
     ArraySearch s = new ArraySearch();
-    s.search();*/
+    s.search();
 
     EvenOddArray eoa = new EvenOddArray();
     eoa.arrays();
