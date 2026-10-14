@@ -69,6 +69,13 @@ void main() {
     ArraySearch s = new ArraySearch();
     s.search();*/
 
+    EvenOddArray eoa = new EvenOddArray();
+    eoa.arrays();
+
+    ReverseArray ra = new ReverseArray();
+    ra.reverse();
+
+
 
     }
 
