@@ -12,9 +12,9 @@ public class BankAccount {
     }
 
     public void deposit(double amount){
-        System.out.println("Balance: R" + this.accBalance);
+
         if(amount > 0 ){
-            amount = amount + this.accBalance;
+            this.accBalance = this.accBalance + amount;
             System.out.println("Balance after deposit: R"+ amount);
         }
         else{
@@ -27,11 +27,11 @@ public class BankAccount {
     }
 
     public void withdraw(double amount){
-        System.out.println("Balance: R" + this.accBalance);
-    if(amount >0 & amount<= this.accBalance)
+
+    if(amount<= this.accBalance)
     {
         this.accBalance = this.accBalance - amount;
-        System.out.println("balance after a withdrawl of R" + amount +" is: R" + this.accBalance);
+        System.out.println("Withdrawl amount of R" + amount );
     }
     else{
         System.out.println("Insufficient funds");
