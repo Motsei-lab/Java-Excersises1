@@ -1,3 +1,8 @@
+/*
+Create a Rectangle class with width and height.
+Add methods for area (width * height) and perimeter (2 * (width + height)).
+Create two objects with different dimensions and display the results.
+ */
 package org.example;
 
 public class Rectangle {

@@ -1,3 +1,13 @@
+/*
+Exercise 2.2: Grade calculator
+Create GradeCalculator and classify marks:
+
+Mark Grade
+
+80--100 Distinction 70--79 Merit 50--69 Pass 0--49 Fail Outside 0--100 Invalid mark
+
+Order conditions correctly so each mark receives one result.
+ */
 package org.example;
 
 public class GradeCalculator {

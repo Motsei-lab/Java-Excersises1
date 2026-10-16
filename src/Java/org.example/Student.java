@@ -1,3 +1,8 @@
+/*
+Create a Student class with name (String), studentNumber (String), and mark (double).
+Add a constructor, displayDetails(), and hasPassed() which returns true when the mark is at least 50.
+In StudentApp, create at least two Student objects and call their methods.
+ */
 package org.example;
 
 public class Student {

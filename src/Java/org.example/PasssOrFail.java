@@ -1,3 +1,9 @@
+/*
+Exercise 2.1: Pass or fail
+Create PassOrFail.
+If a mark is 50 or higher, display Pass; otherwise, display Fail.
+Challenge: Reject marks below 0 or above 100.
+ */
 package org.example;
 
 public class PasssOrFail {

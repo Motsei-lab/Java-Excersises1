@@ -1,3 +1,8 @@
+/*
+Exercise 2.3: Number analysis
+Create NumberAnalysis. Determine whether an integer is positive, negative, or zero, and whether it is even or odd.
+Remember that zero is even.
+ */
 package org.example;
 
 public class NumberAnalysis {

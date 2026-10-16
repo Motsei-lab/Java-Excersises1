@@ -1,3 +1,9 @@
+/*
+Exercise 3.1: Store student marks
+Create StudentMarks with an integer array of five marks.
+ Print each mark using a loop,
+ then calculate and display the total and average.
+ */
 package org.example;
 
 public class StudentMarks {

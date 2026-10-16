@@ -1,3 +1,7 @@
+/*
+Create ReverseArray. Display the array in reverse order without changing the original array.
+Challenge: Reverse the array in place by swapping elements.
+ */
 package org.example;
 
 import java.util.ArrayList;

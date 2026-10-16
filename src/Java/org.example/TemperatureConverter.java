@@ -1,3 +1,11 @@
+/*
+Exercise 1.3: Temperature conversion
+Create TemperatureConverter. Convert Celsius to Fahrenheit using:
+
+fahrenheit = (celsius * 9 / 5) + 32
+
+Display both values. Challenge: Convert Fahrenheit back to Celsius.
+ */
 package org.example;
 
 public class TemperatureConverter {

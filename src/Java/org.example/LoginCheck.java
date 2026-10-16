@@ -1,3 +1,10 @@
+/*
+Exercise 2.4: Login check
+Create LoginCheck.
+Compare a username and password stored in String variables with expected values.
+Display Login successful or Invalid credentials.
+Important: Use .equals() to compare String contents rather than ==.
+ */
 package org.example;
 
 import javax.xml.transform.Result;

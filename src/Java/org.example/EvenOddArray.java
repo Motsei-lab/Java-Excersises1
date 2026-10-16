@@ -1,3 +1,8 @@
+/*
+Exercise 3.4: Separate even and odd numbers
+Create EvenOddArray. Count the even and odd values in an integer array.
+Challenge: Store the even and odd values in separate arrays or lists.
+ */
 package org.example;
 
 import java.util.ArrayList;
